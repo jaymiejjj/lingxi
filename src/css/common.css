@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width:100%;
+    height:80px;
+    background-color: black;
+}
+
+.content{
+    width:100%;
+    height: 890px;
+}
+
+.left {
+    width:13.8%;
+    height: 100%;
+    float: left;
+    background-color: red;
+}
+
+.middle {
+    width: 68.75%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+
+.right {
+    height: 100%;
+    background-color: #00aced
+}
