@@ -14,21 +14,21 @@ body {
     height: 890px;
 }
 
-.left {
+.cnontent-left {
     width:13.8%;
     height: 100%;
     float: left;
     background-color: red;
 }
 
-.middle {
+.cnontent-middle {
     width: 68.75%;
     height: 100%;
     float: left;
     background-color: white;
 }
 
-.right {
+.cnontent-right {
     height: 100%;
     background-color: #00aced
 }
