@@ -26,6 +26,8 @@ body {
     height: 100%;
     float: left;
     background-color: white;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .right-lx {
