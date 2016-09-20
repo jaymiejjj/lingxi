@@ -10,9 +10,20 @@
     background-color: white;
 }
 
-.statistic .ui.purple.label {
+.statistic > .ui.purple.label {
     width: 80%;
+    display: block;
 }
+
+.ui.text.menu > .right.menu .item {
+    color: blue;
+}
+
+.statistic > .ui.basic.label {
+    border-style: none;
+}
+
+
 /*.ui.segments {
     margin-top: 0;
 }
