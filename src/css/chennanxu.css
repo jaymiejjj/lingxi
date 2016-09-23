@@ -1,5 +1,7 @@
 body {
     background: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ui.header {
@@ -24,6 +26,20 @@ body {
     top: 30%;
     width: inherit;
     margin-left: 120px;
+}
+
+.form-area {
+  float: right;
+}
+
+.btn-sign {
+  float: right;
+  border:2px solid white;
+  border-radius: 4px;
+  background: transparent none;
+  color: #ffffff;
+  text-shadow: none !important;
+  padding: 6px 22px;
 }
 
 .about {
