@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}base{% endblock %}</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+{% block header %}
+<div class="header-lx"></div>
+{% endblock %}
+
+<div class="content-lx">
+    {% block left %}
+    <div class="left-lx"></div>
+    {% endblock %}
+
+    {% block middle %}
+    <div class="middle-lx">
+
+    </div>
+    {% endblock %}
+
+    {% block right %}
+    <div class="right-lx"></div>
+    {% endblock %}
+
+</div>
+
+</body>
+</html>
