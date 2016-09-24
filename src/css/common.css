@@ -61,12 +61,12 @@ body {
   border-width:0;
 }
 
-.menu {
+/*.menu {
   width: 21.55%;
   height: 80px;
   background-color: #18202D;
   float: left;
-}
+}*/
 
 .menu-ul {
   overflow: hidden;
