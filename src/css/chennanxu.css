@@ -1,0 +1,68 @@
+body {
+    background: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ui.header {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.slogon {
+    border-left: solid 5px rgb(239, 157, 17);
+    line-height:250%;
+    width: 400px;
+}
+
+.column {
+    width: 1500px;
+}
+.content {
+    box-sizing: border-box;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    width: inherit;
+    margin-left: 120px;
+}
+
+.form-area {
+  float: right;
+}
+
+.btn-sign {
+  float: right;
+  border:2px solid white;
+  border-radius: 4px;
+  background: transparent none;
+  color: #ffffff;
+  text-shadow: none !important;
+  padding: 6px 22px;
+}
+
+.about {
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size: 45px;
+    color: white;
+    margin: 20px;
+}
+
+.subtitle {
+    color: rgb(185,184,189);
+    font-size: 20px;
+    width: 400px;
+    margin: 20px;
+}
+
+.button {
+    position: absolute;
+    left: 47%;
+}
+
+.footer {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
