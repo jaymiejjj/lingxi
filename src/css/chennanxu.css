@@ -20,12 +20,13 @@ body {
     width: 1500px;
 }
 .content {
-    box-sizing: border-box;
     height: 400px;
     position: absolute;
     top: 30%;
-    width: inherit;
-    margin-left: 120px;
+    width: 100%;
+    padding-left: 9%;
+    padding-right: 9%;
+
 }
 
 .form-area {
