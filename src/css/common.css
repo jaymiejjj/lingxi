@@ -3,32 +3,111 @@ body {
     margin: 0;
 }
 
-.header {
+.header-lx {
     width:100%;
     height:80px;
-    background-color: black;
 }
 
-.content{
+.content-lx{
     width:100%;
     height: 890px;
 }
 
-.left {
+.left-lx {
     width:13.8%;
     height: 100%;
     float: left;
     background-color: red;
 }
 
-.middle {
+.middle-lx {
     width: 68.75%;
     height: 100%;
     float: left;
     background-color: white;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
 }
 
-.right {
+.right-lx {
     height: 100%;
     background-color: #00aced
+}
+
+.img-search {
+  width: 61%;
+  height:100%;
+  float:left;
+  background-color: #2F364A;
+}
+
+.img {
+  margin: 20px 20px;
+  height: 42px;
+  float: left;
+}
+
+.search {
+  margin: 24px 32px 24px 0;
+  height: 32px;
+  float: right;
+}
+
+.search-text {
+  width: 400px;
+  height: 28px;
+  border-radius: 16px;
+  border-width:0;
+}
+
+.menu {
+  width: 21.55%;
+  height: 80px;
+  background-color: #18202D;
+  float: left;
+}
+
+.menu-ul {
+  overflow: hidden;
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.menu-text {
+  width: 20%;
+  float: left;
+  font-size: 14px;
+  list-style:none;
+  color:#5D647D;
+  text-align: center;
+}
+
+.message {
+  height: 100%;
+  background-color: #2F364A;
+}
+
+.img-head{
+  margin: 25px 20px;
+  height: 30px;
+  float: left;
+}
+.name{
+  margin: 32px 5px;
+  height: 16px;
+  float: left;
+}
+
+.username{
+  color: white;
+}
+
+#dropdown-btn{
+  border-radius: 999px;
+  background-image: url('../img/xiala.png');
+  background-size: cover;
+  margin: 34px 5px;
+  height: 12px;
+  width: 11px;
+  float: left;
 }
