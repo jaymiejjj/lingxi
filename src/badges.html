@@ -1,409 +1,609 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-cmn-Hans">
 <head>
     <meta charset="UTF-8">
     <title>badges</title>
-    <link rel="stylesheet" href="css/common.css" >
     <link rel="stylesheet" href="css/semantic.css" >
     <link rel="stylesheet" href="css/badges.css" >
 </head>
 <body>
-    <div class="header-lx"></div>
-    <div class="content-lx">
-        <div class="left-lx"></div>
-        <div class="middle-lx">
-            <div class="ui basic segment">
-                <h2 class="ui header">徽章</h2>
+<div class="header-lx">
+  <div class="img-search">
+    <div class="img">
+      <img src="img/logo.png" style="height:100%" alt="灵犀" />
+    </div>
+    <div class="search">
+      <div class="ui icon input">
+        <input type="text"  style="width:400px;border-radius:20px;"placeholder="输入关键词">
+        <i class="search icon"></i>
+      </div>
+    </div>
+  </div>
+  <div class="menu-lx">
+    <ul class="menu-ul">
+      <li class="menu-text">新手帮助</li>
+      <li class="menu-text">关于我们</li>
+      <li class="menu-text">隐私保护</li>
+      <li class="menu-text">社区条款</li>
+      <li class="menu-text">联系我们</li>
+    </ul>
+  </div>
+  <div class="message">
+    <div class="img-head">
+      <img src="img/Ellipse 1.png" alt="" />
+    </div>
+    <div class="name">
+      <span class="username">Hoang Nguyen</span>
+    </div>
+    <div id = "dropdown-btn"></div>
+
+  </div>
+
+</div>
+<div class="content-lx">
+    <div class="left-lx">
+      <div class="btn-ask">
+        <button type="button" name="button" class="btn-ask-question">
+          <img src="img\jiahao.png" alt="" />
+          <span class="ask-question-word">提问</span>
+        </button>
+      </div>
+      <ul class="ul-lx">
+        <li class="li-lx">
+          <a href="#" class="a-li-lx">
+            <img src="img\wenhao.png" />
+            <span class="li-span-lx">问题</span>
+          </a>
+        </li>
+        <li class="li-lx-active">
+          <a href="#" class="a-li-lx">
+            <img src="img\biaoqian.png" />
+            <span class="li-span-lx">标签</span>
+          </a>
+        </li>
+        <li class="li-lx">
+          <a href="#" class="a-li-lx">
+            <img src="img\renwu_1.png" />
+            <span class="li-span-lx">用户</span>
+          </a>
+        </li>
+        <li class="li-lx">
+          <a href="#" class="a-li-lx">
+            <img src="img\jianbei.png" />
+            <span class="li-span-lx">勋章</span>
+          </a>
+        </li>
+      </ul>
+      <div class="links-div">
+        <div class="links-lx">
+          <a href="#" class="links-a-lx">
+            <img src="img\chaolian.png" alt="" />
+            <span class="link-span-lx">This is a link one</span>
+          </a>
+        </div>
+        <div class="links-lx">
+          <a href="#" class="links-a-lx">
+            <img src="img\chaolian.png" alt="" />
+            <span class="link-span-lx">Another</span>
+          </a>
+        </div>
+        <div class="links-lx">
+          <a href="#" class="links-a-lx">
+            <img src="img\chaolian.png" alt="" />
+            <span class="link-span-lx">Short link</span>
+          </a>
+        </div>
+        <div class="links-lx">
+          <a href="#" class="links-a-lx">
+            <img src="img\chaolian.png" alt="" />
+            <span class="link-span-lx">More last link</span>
+          </a>
+        </div>
+      </div>
+      <div class="recent-status-div">
+        <div class="ask-lx">
+          <p class="ask-p-lx">你提出了问题<a href="#" class="status-a-lx">怎样在未来 5 年内变成亿万富翁？</a></p>
+          <div class="time-lx">
+            24 分钟以前
+          </div>
+        </div>
+        <div class="answer-lx">
+          <p class="answer-p-lx">你回答了问题<a href="#" class="status-a-lx">什么是设计工作中最吸引人的地方？</a></p>
+          <div class="time-lx">
+            26 分钟以前
+          </div>
+        </div>
+        <div class="accepted-lx">
+          <p class="accepted-p-lx">你赞同了答案<a href="#" class="status-a-lx">如何爱你的生活？</a></p>
+          <div class="time-lx">
+            1 小时以前
+          </div>
+        </div>
+        <div class="rights-lx">
+          <div class="rights-2014-lx">©2014 EngineThemes</div>
+          <div >
+            <span class="term-lx">条款 & 隐私</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="middle-lx">
+        <div class="ui basic segment">
+            <h2 class="ui header">徽章</h2>
+        </div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui basic padded segment">
+            <h4 >分数系统</h4>
+            <p>
+                如果人们支持由你产生的内容，你的声誉值就会提高。
+            </p>
+            <div class="ui grid">
+                <div class="four wide column">
+                    <div class="ui card ">
+                        <div class="content ">
+                            <div class="ui horizontal blue statistic">
+                                <div class="value">
+                                    +5
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        问题被支持
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div class="ui card ">
+                        <div class="content ">
+                            <div class="ui horizontal blue statistic">
+                                <div class="value">
+                                    +10
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        答案被支持
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div class="ui card ">
+                        <div class="content ">
+                            <div class="ui horizontal blue statistic">
+                                <div class="value">
+                                    +15
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        答案被接受
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div class="ui card ">
+                        <div class="content ">
+                            <div class="ui horizontal blue statistic">
+                                <div class="value">
+                                    +2
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        编辑被批准
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <div class="ui divider"></div>
+        <div class="ui divider "></div>
 
-            <div class="ui basic padded segment">
-                <h4 >分数系统</h4>
-                <p>
-                    如果人们支持由你产生的内容，你的声誉值就会提高。
-                </p>
+        <div class="ui basic padded segment">
+            <h4 >徽章系统</h4>
+            <p>
+                等级越高，你就有越高的管理权限。
+            </p>
+            <p>
+                你将可以和我们一起来保证社区氛围纯净而友好。
+            </p>
+            <div class="ui segment">
+                <div class="ui grid" >
+                    <div class="four column row" style="padding-bottom:0">
+                        <div class="column">
+                            <div class="ui purple horizontal label">教授</div>
+                        </div>
+                        <div class="column">
+                            <h5>勋章权限</h5>
+                        </div>
+                        <div class="column">
+
+                        </div>
+                        <div class="column">
+
+                        </div>
+                    </div>
+                </div>
                 <div class="ui grid">
-                    <div class="four wide column">
-                        <div class="ui card ">
-                            <div class="content ">
-                                <div class="ui horizontal blue statistic">
-                                    <div class="value">
-                                        +5
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            问题被支持
-                                        </p>
-                                    </div>
+                    <div class="four column row" >
+                        <div class=" column">
+
+                            <div class="ui horizontal blue statistic" style="margin:0">
+                                <div class="value">
+                                    9999
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        分数要求
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="four wide column">
-                        <div class="ui card ">
-                            <div class="content ">
-                                <div class="ui horizontal blue statistic">
-                                    <div class="value">
-                                        +10
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            答案被支持
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class=" column">
+
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                使用管理工具
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投票关闭，重新打开或迁移问题
+                            </p>
                         </div>
-                    </div>
-                    <div class="four wide column">
-                        <div class="ui card ">
-                            <div class="content ">
-                                <div class="ui horizontal blue statistic">
-                                    <div class="value">
-                                        +15
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            答案被接受
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class=" column">
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                编辑其他人的职位
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投反对票(该答案被扣一分)
+                            </p>
                         </div>
-                    </div>
-                    <div class="four wide column">
-                        <div class="ui card ">
-                            <div class="content ">
-                                <div class="ui horizontal blue statistic">
-                                    <div class="value">
-                                        +2
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            编辑被批准
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class=" column">
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                留下评论
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投票
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="ui divider "></div>
-
-            <div class="ui basic padded segment">
-                <h4 >徽章系统</h4>
-                <p>
-                    等级越高，你就有越高的管理权限。
-                </p>
-                <p>
-                    你将可以和我们一起来保证社区氛围纯净而友好。
-                </p>
-                <div class="ui segment">
-                    <div class="ui grid" >
-                        <div class="four column row" style="padding-bottom:0">
-                            <div class="column">
-                                <div class="ui purple horizontal label">教授</div>
-                            </div>
-                            <div class="column">
-                                <h5>勋章权限</h5>
-                            </div>
-                            <div class="column">
-
-                            </div>
-                            <div class="column">
-
-                            </div>
+            <div class="ui segment">
+                <div class="ui grid" >
+                    <div class="four column row" style="padding-bottom:0">
+                        <div class="column">
+                            <div class="ui yellow horizontal label">副教授</div>
                         </div>
-                    </div>
-                    <div class="ui grid">
-                        <div class="four column row" >
-                            <div class=" column">
+                        <div class="column">
+                            <h5>勋章权限</h5>
+                        </div>
+                        <div class="column">
 
-                                <div class="ui horizontal blue statistic" style="margin:0">
-                                    <div class="value">
-                                        9999
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            分数要求
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" column">
+                        </div>
+                        <div class="column">
 
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    使用管理工具
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投票关闭，重新打开或迁移问题
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    编辑其他人的职位
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投反对票(该答案被扣一分)
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    留下评论
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投票
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="ui segment">
-                    <div class="ui grid" >
-                        <div class="four column row" style="padding-bottom:0">
-                            <div class="column">
-                                <div class="ui yellow horizontal label">副教授</div>
-                            </div>
-                            <div class="column">
-                                <h5>勋章权限</h5>
-                            </div>
-                            <div class="column">
-
-                            </div>
-                            <div class="column">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui grid">
-                        <div class="four column row">
-                            <div class=" column">
-                                <div class="ui horizontal blue statistic" style="margin:0">
-                                    <div class="value">
-                                        8888
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            分数要求
-                                        </p>
-                                    </div>
+                <div class="ui grid">
+                    <div class="four column row">
+                        <div class=" column">
+                            <div class="ui horizontal blue statistic" style="margin:0">
+                                <div class="value">
+                                    8888
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        分数要求
+                                    </p>
                                 </div>
                             </div>
-                            <div class=" column">
+                        </div>
+                        <div class=" column">
 
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    使用管理工具
-                                </p>
-                                <p>
-                                    <i class="grey ban icon"></i>
-                                    投票关闭，重新打开或迁移问题
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    编辑其他人的职位
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投反对票(该答案被扣一分)
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    留下评论
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投票
-                                </p>
-                            </div>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                使用管理工具
+                            </p>
+                            <p>
+                                <i class="grey ban icon"></i>
+                                投票关闭，重新打开或迁移问题
+                            </p>
+                        </div>
+                        <div class=" column">
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                编辑其他人的职位
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投反对票(该答案被扣一分)
+                            </p>
+                        </div>
+                        <div class=" column">
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                留下评论
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投票
+                            </p>
                         </div>
                     </div>
                 </div>
-
-                <div class="ui segment">
-                    <div class="ui grid" >
-                        <div class="four column row" style="padding-bottom:0">
-                            <div class="column">
-                                <div class="ui teal horizontal label">博士</div>
-                            </div>
-                            <div class="column">
-                                <h5>勋章权限</h5>
-                            </div>
-                            <div class="column">
-
-                            </div>
-                            <div class="column">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui grid">
-                        <div class="four column row">
-                            <div class=" column">
-
-                                <div class="ui horizontal blue statistic" style="margin:0">
-                                    <div class="value">
-                                        7777
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            分数要求
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" column">
-
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    使用管理工具
-                                </p>
-                                <p>
-                                    <i class="grey ban icon"></i>
-                                    投票关闭，重新打开或迁移问题
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="grey ban icon"></i>
-                                    编辑其他人的职位
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投反对票(该答案被扣一分)
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    留下评论
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投票
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ui segment">
-                    <div class="ui grid" >
-                        <div class="four column row" style="padding-bottom:0">
-                            <div class="column">
-                                <div class="ui blue horizontal label">硕士</div>
-                            </div>
-                            <div class="column">
-                                <h5>勋章权限</h5>
-                            </div>
-                            <div class="column">
-
-                            </div>
-                            <div class="column">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui grid">
-                        <div class="four column row">
-                            <div class=" column">
-
-                                <div class="ui horizontal blue statistic" style="margin:0">
-                                    <div class="value">
-                                        6666
-                                    </div>
-                                    <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
-                                        <i class="blue star icon"></i>
-                                        <p>
-                                            分数要求
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" column">
-
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    使用管理工具
-                                </p>
-                                <p>
-                                    <i class="grey ban icon"></i>
-                                    投票关闭，重新打开或迁移问题
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="grey ban icon"></i>
-                                    编辑其他人的职位
-                                </p>
-                                <p>
-                                    <i class="grey ban icon"></i>
-                                    投反对票(该答案被扣一分)
-                                </p>
-                            </div>
-                            <div class=" column">
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    留下评论
-                                </p>
-                                <p>
-                                    <i class="green checkmark icon"></i>
-                                    投票
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-            <div class="ui divider "></div>
 
-            <div class="ui basic segment">
-                    <button class="ui compact basic button">
-                        首页
-                    </button>
+            <div class="ui segment">
+                <div class="ui grid" >
+                    <div class="four column row" style="padding-bottom:0">
+                        <div class="column">
+                            <div class="ui teal horizontal label">博士</div>
+                        </div>
+                        <div class="column">
+                            <h5>勋章权限</h5>
+                        </div>
+                        <div class="column">
 
-                    <button class="ui  compact blue button">
-                        1
-                    </button>
-                    <button class="ui compact  basic button">
-                        2
-                    </button>
-                    <button class="ui compact basic button">
-                        ...
-                    </button>
-                    <button class="ui compact basic button">
-                        15
-                    </button>
-                    <button class="ui compact basic button">
-                        尾页
-                    </button>
+                        </div>
+                        <div class="column">
+
+                        </div>
+                    </div>
                 </div>
+                <div class="ui grid">
+                    <div class="four column row">
+                        <div class=" column">
+
+                            <div class="ui horizontal blue statistic" style="margin:0">
+                                <div class="value">
+                                    7777
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        分数要求
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" column">
+
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                使用管理工具
+                            </p>
+                            <p>
+                                <i class="grey ban icon"></i>
+                                投票关闭，重新打开或迁移问题
+                            </p>
+                        </div>
+                        <div class=" column">
+                            <p>
+                                <i class="grey ban icon"></i>
+                                编辑其他人的职位
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投反对票(该答案被扣一分)
+                            </p>
+                        </div>
+                        <div class=" column">
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                留下评论
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投票
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui segment">
+                <div class="ui grid" >
+                    <div class="four column row" style="padding-bottom:0">
+                        <div class="column">
+                            <div class="ui blue horizontal label">硕士</div>
+                        </div>
+                        <div class="column">
+                            <h5>勋章权限</h5>
+                        </div>
+                        <div class="column">
+
+                        </div>
+                        <div class="column">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="ui grid">
+                    <div class="four column row">
+                        <div class=" column">
+
+                            <div class="ui horizontal blue statistic" style="margin:0">
+                                <div class="value">
+                                    6666
+                                </div>
+                                <div class="ui horizontal basic segment " style="padding:0 0 0 10px">
+                                    <i class="blue star icon"></i>
+                                    <p>
+                                        分数要求
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" column">
+
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                使用管理工具
+                            </p>
+                            <p>
+                                <i class="grey ban icon"></i>
+                                投票关闭，重新打开或迁移问题
+                            </p>
+                        </div>
+                        <div class=" column">
+                            <p>
+                                <i class="grey ban icon"></i>
+                                编辑其他人的职位
+                            </p>
+                            <p>
+                                <i class="grey ban icon"></i>
+                                投反对票(该答案被扣一分)
+                            </p>
+                        </div>
+                        <div class=" column">
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                留下评论
+                            </p>
+                            <p>
+                                <i class="green checkmark icon"></i>
+                                投票
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-        <div class="right-lx"></div>
+        <div class="ui divider "></div>
+
+        <div class="ui basic segment">
+                <button class="ui compact basic button">
+                    首页
+                </button>
+
+                <button class="ui  compact blue button">
+                    1
+                </button>
+                <button class="ui compact  basic button">
+                    2
+                </button>
+                <button class="ui compact basic button">
+                    ...
+                </button>
+                <button class="ui compact basic button">
+                    15
+                </button>
+                <button class="ui compact basic button">
+                    尾页
+                </button>
+            </div>
+
     </div>
+
+    <div class="right-lx">
+      <div class="questions-div">
+        <div>
+          <div class="question-title-lx">问题</div>
+          <div class="number-data-lx">3879</div>
+        </div>
+      </div>
+      <div class="members-div">
+        <div>
+          <div class="question-title-lx">成员</div>
+          <div class="number-data-lx">10,930</div>
+        </div>
+      </div>
+      <div class="tags-div">
+        <div class="related-tags">
+          相关标签
+        </div>
+        <div class="one-tag">
+          <span class="tag-span-lx">生活</span>
+          <span class="tag-span-number">×2707</span>
+        </div>
+        <div class="one-tag">
+          <span class="tag-span-lx">财富</span>
+          <span class="tag-span-number">×1988</span>
+        </div>
+        <div class="one-tag">
+          <span class="tag-span-lx">努力</span>
+          <span class="tag-span-number">×1409</span>
+        </div>
+        <div class="one-tag">
+          <span class="tag-span-lx">吸引力</span>
+          <span class="tag-span-number">×923</span>
+        </div>
+        <div class="one-tag">
+          <span class="tag-span-lx">兴趣</span>
+          <span class="tag-span-number">×765</span>
+        </div>
+        <div class="one-tag">
+          <span class="tag-span-lx">设计师</span>
+          <span class="tag-span-number">×489</span>
+        </div>
+        <a href="#" class="more-related-tags">更多相关标签</a>
+      </div>
+
+      <div class="hot-questions-div">
+        <div class="new-hot-questions">新的热点问题</div>
+        <div class="hot-question-li">
+          <p class="hot-question-p">
+            <a href="#">怎样在未来 5 年内变成亿万富翁？</a>
+          </p>
+        </div>
+        <div class="hot-question-li">
+          <p class="hot-question-p">
+            <a href="#">什么是设计工作中最吸引人的地方？</a>
+          </p>
+        </div>
+        <div class="hot-question-li">
+          <p class="hot-question-p">
+            <a href="#">如何爱你的生活？</a>
+          </p>
+        </div>
+        <div class="hot-question-li">
+          <p class="hot-question-p">
+            <a href="#">怎样在未来 5 年内变成亿万富翁？</a>
+          </p>
+        </div>
+        <div class="hot-question-li">
+          <p class="hot-question-p">
+            <a href="#">什么是设计工作中最吸引人的地方？</a>
+          </p>
+        </div>
+        <div class="hot-question-li">
+          <p class="hot-question-p">
+            <a href="#">如何爱你的生活？</a>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+</div>
 
 </body>
 </html>

@@ -10,7 +10,7 @@ body {
 
 .content-lx{
     width:100%;
-    height: 1080px;
+    height: 900px
 }
 
 .left-lx {
@@ -21,10 +21,9 @@ body {
 
 .middle-lx {
     width: 68.75%;
-    height: 100%;
+    height: auto;
     float: left;
-    margin-bottom: 70px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .right-lx {
@@ -186,7 +185,7 @@ body {
 
 .recent-status-div {
   width: 100%;
-  height: 680px;
+  height: 500px;
   border-right:1px solid #D6DBE7;
   border-bottom:1px solid #D6DBE7;
   padding: 5px 0;
@@ -353,4 +352,10 @@ body {
   padding-left: 31px;
   padding-right: 23px;
   color: #75C2FB;
+}
+
+/*404页面样式*/
+.middle-center-lx {
+  padding-top: 61px;
+  text-align: center;
 }

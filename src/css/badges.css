@@ -10,7 +10,7 @@ body {
 
 .content-lx{
     width:100%;
-    height: 1862px
+    height: 1048.58px;
 }
 
 .left-lx {
@@ -23,7 +23,7 @@ body {
     width: 68.75%;
     height: auto;
     float: left;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .right-lx {
@@ -185,7 +185,7 @@ body {
 
 .recent-status-div {
   width: 100%;
-  height: 1462px;
+  height: 648.58px;
   border-right:1px solid #D6DBE7;
   border-bottom:1px solid #D6DBE7;
   padding: 5px 0;
@@ -354,149 +354,8 @@ body {
   color: #75C2FB;
 }
 
-.middle-title-lx {
-  width: 100%;
-  height: 56px;
-  border-bottom:1px solid #D6DBE7;
-}
-.middle-title-left {
-  height: 100%;
-  width: 112px;
-  padding-left: 18px;
-  float: left;
-  position: relative;
-
-}
-
-.back-home-lx {
-  position: absolute;
-  top: 50%;
-  transform:translate(0,-50%);
-}
-
-.middle-title-right {
-  height: 100%;
-  padding-left: 112px;
-  color: #75C2FB;
-  position: relative;
-}
-
-.question-description-div {
-  border-bottom:1px solid #D6DBE7;
-  padding-top: 30px;
-}
-
-.question-description-left {
-  padding-left: 44px;
-  float: left;
-  height: 100%;
-}
-
-.question-description-right {
-  padding-left: 130px;
-  padding-right: 57px;
-}
-
-.question-description-tags {
-  margin-bottom:25px;
-}
-
-.question-description-content {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #D6DBE7;
-}
-
-.question-description-message {
-  height: 72px;
-  line-height: 72px;
-  position: relative;
-}
-
-.vertical-center-lx {
-  position: relative;
-  top: 50%;
-  transform:translate(0,-90%);
-}
-
-.message-span-lx {
-  font-size: 12px;
-  color: #8187A0;
-  margin-left:5px;
-}
-
-.message-a-lx {
-  color: #75C2FB;
-}
-
-.description-right-options {
-  float:right
-}
-
-.answers-list-title {
-  height: 46px;
-  line-height: 46px;
-  padding-left: 22px;
-  border-bottom: 1px solid #D6DBE7;
-}
-
-.answers-numbers {
-  font-weight: bold;
-}
-
-.answers-list-tags {
-  float: right;
-  color: #8187A0;
-  margin-left: 21px;
-  margin-right: 21px;
-}
-
-
-.color-brick {
-  width: 100%;
-  height: 5px;
-  background-color:#EA9314;
-  position: relative;
-  top: -5px;
-}
-
-.answers-description-div1 {
-  border-bottom:1px solid #D6DBE7;
-  padding-top:30px;
-  background-color: #FAFBFF;
-}
-
-.answers-description-div2 {
-  border-bottom:1px solid #D6DBE7;
-  padding-top:30px;
-}
-
-
-.comment-p-lx {
-  background-image: url("../img/Ellipse 1.png");
-  background-repeat: no-repeat;
-  padding-left: 50px;
-  padding-top: 3px;
-}
-
-.comment-content-lx {
-  padding-left:20px;
-  padding-right:20px;
-  border-bottom:1px solid #D6DBE7;
-  padding-bottom: 14px;
-}
-
-.add-comment-lx {
-  height: 26px;
-  line-height: 26px;
-  padding-left: 20px;
-  font-size:12px;
-}
-
-.page-lx {
-  padding: 18px 19px;
-  border-bottom:1px solid #D6DBE7;
-}
-
-.your-anwser-lx {
-  padding:18px 0 25px 45px;
+/*404页面样式*/
+.middle-center-lx {
+  padding-top: 61px;
+  text-align: center;
 }
